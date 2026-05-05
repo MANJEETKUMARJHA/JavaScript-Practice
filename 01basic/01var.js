@@ -5,7 +5,7 @@ accountCity = "Kolkata" //wrong way to declear variable
 let accountState;
 
 // accountID = 2 not allowed
-accountEmail = "hc@fdf.com"
+accountEmail = "hc@gmail.com"
 accountPassword = " 12456"
 accountCity = "jaipur"
 
