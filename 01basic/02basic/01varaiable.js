@@ -10,7 +10,7 @@ let accountState; // declared but not initialized
 accountEmail = "newemail@gmail.com"; // allowed, can change
 accountPassword = "newpassword"; // allowed, can change
 accountCity = "Jaipur"; // allowed, can change
-
+accountState = "Rajasthan"; // allowed, can change
 
 console.log(accountID); // This will log 12345
 
