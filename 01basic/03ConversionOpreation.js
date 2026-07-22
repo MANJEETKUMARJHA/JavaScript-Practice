@@ -6,8 +6,8 @@ let score = "33abc" // if we want to convert string to number then it will be Na
 //let score = "Manjeet" // if we want to convert string to number then it will be NaN because "Manjeet" is not a valid number
 
 
-console.log(typeof score);
-console.log(typeof (score));
+//console.log(typeof score);  // typeof is used to check the data type of a variable
+console.log(typeof (score)); // typeof is used to check the data type of a variable
 
 let valueInNumber = Number(score); // Number() is used to convert a value to a number data type it is used anydata type to number data type
 console.log(typeof valueInNumber); // typeof is used to check the data type of a variable
@@ -63,3 +63,45 @@ console.log(StringNumber); // This will log "33" because 33 is a valid number an
 // null => "null" because null is a valid value and it will be converted to "null"
 // undefined => "undefined" because undefined is a valid value and it will be converted to "undefined"
 
+/********************************** Operation ************************************/
+
+let value = 3
+let negValue = -value // - is used to convert a positive number to negative number
+console.log(negValue); // This will log -3 because - is used to convert a positive number to negative number
+
+console.log(2 + 2); // This will log 4 because + is used to add two numbers
+console.log(2 - 2); // This will log 0 because - is used to subtract two numbers
+console.log(2 * 2); // This will log 4 because * is used to multiply two numbers
+console.log(2 / 2); // This will log 1 because / is used to divide two numbers
+console.log(2 % 2); // This will log 0 because % is used to get the remainder of two numbers
+console.log(2 ** 2); // This will log 4 because ** is used to get the power of two numbers
+
+let str1 = "Hello"
+let str2 = "World"
+
+let str3 = str1 + " " + str2 // + is used to concatenate two strings
+console.log(str3); // This will log "Hello World" because + is used to concatenate two strings
+
+console.log("2" + 2); // This will log "22" because + is used to concatenate two strings
+console.log(2 + "2"); // This will log "22" because + is used to concatenate two strings
+console.log("1" + 1 + 1); // This will log "111" because operation would be evaluated from left to right and first "1" + 1 will be evaluated first and then it will be concatenated with 1
+console.log(1 + "1" + 1); // This will log "111" because operation would be evaluated from left to right and first 1 + "1" will be evaluated first and then it will be concatenated with 1
+console.log(1 + 1 + "1"); // This will log "21" because first 1 + 1 will be evaluated first and then it will be concatenated with "1"
+console.log(1 + 1 + "1"); // This will log "21" because first 1 + 1 will be evaluated first and then it will be concatenated with "1"
+console.log("1" + 1 - 1); // This will log "10" because first "1" + 1 will be evaluated first and then it will be concatenated with - 1
+
+console.log(true) // This will log true because true is a boolean value
+console.log( + true) // this will log 1 because true is converted to 1 and + is used
+console.log(+ " ") // This will log 0 because + is used to convert a string to a number and " " is converted to 0   
+
+/******************************precedence operator ******************/
+let gameCounter = 100
+++gameCounter // prefix operator is used to increment a number by 1 but it will be incremented before the current operation is completed
+gameCounter++ // postfix operator is used to increment a number by 1 but it will be incremented after the current operation is completed
+console.log(gameCounter); // This will log 101 because ++ is used to increment a number by 1
+
+/****************************** operator ******************/
+let gameCounter2 = 100
+--gameCounter2 // -- is used to decrement a number by 1 but it will be decremented before the current operation is completed
+gameCounter2-- // -- is used to decrement a number by 1 but it will be decremented after the current operation is completed
+console.log(gameCounter2); // This will log 99 because -- is used to decrement a number by 1    
