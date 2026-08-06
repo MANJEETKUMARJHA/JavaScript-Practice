@@ -16,5 +16,3 @@ console.log(null == 0); // This will log false because null is not equal to 0
 console.log(null > 0); // This will log false because null is not greater than 0
 console.log(null < 0); // This will log false because null is not less than 0
 console.log(null >= 0); // This will log true because null is converted to 0 and 0 is equal to 0 and comprison convert null to a number, treating it as 0. that's why null >= 0 is true and null > 0 is false.
- 
-console.log();
