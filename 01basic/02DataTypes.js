@@ -30,3 +30,5 @@ console.log(typeof "manjeet"); // string
 console.log(typeof age); // number
 console.log(typeof null); // object
 console.log(typeof undefined); // undefined
+console.log(typeof isLoggedIn); // boolean
+console.log(typeof state); // undefined
