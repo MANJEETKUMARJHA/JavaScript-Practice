@@ -105,3 +105,13 @@ let gameCounter2 = 100
 --gameCounter2 // -- is used to decrement a number by 1 but it will be decremented before the current operation is completed
 gameCounter2-- // -- is used to decrement a number by 1 but it will be decremented after the current operation is completed
 console.log(gameCounter2); // This will log 99 because -- is used to decrement a number by 1    
+
+/****************************** operator ******************/
+let gameCounter3 = 100
+gameCounter3 += 10 // += is used to add a number to a variable and assign the result to the variable
+console.log(gameCounter3); // This will log 110 because += is used to add a number to a variable and assign the result to the variable
+
+/****************************** operator ******************/
+let gameCounter4 = 100
+gameCounter4 -= 10 // -= is used to subtract a number from a variable and assign the result to the variable
+console.log(gameCounter4); // This will log 90 because -= is used to subtract a number from a variable and assign the result to the variable
