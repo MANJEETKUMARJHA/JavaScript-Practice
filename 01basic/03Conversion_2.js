@@ -21,3 +21,5 @@ console.log(Number("100")); // This will log 100 because Number() is used to con
 console.log(Number("abc")); // This will log NaN because Number() is used to convert a string to a number and "abc" is not a valid number so it will be converted to NaN
 
 console.log(String(100)); // This will log "100" because String() is used to convert a number to a string and 100 is converted to "100"
+
+// all done 
