@@ -20,14 +20,14 @@ console.log(--a); // This will log 10 because -- is used to decrement a number b
 
 // Example
 
-let a = 20;
+let d = 20;
 
-console.log(a + 5); // This will log 25 because + is used to add two numbers
-console.log(a - 3); // This will log 17 because - is used to subtract two numbers
-console.log(a * 3); // This will log 60 because * is used to multiply two numbers
-console.log(a / 3); // This will log 6.666666666666667 because / is used to divide two numbers
-console.log(a % 3); // This will log 1 because % is used to find the remainder of a division
-console.log(a ** 3); // This will log 1000 because ** is used to find the power of a number
+console.log(d + 5); // This will log 25 because + is used to add two numbers
+console.log(d - 3); // This will log 17 because - is used to subtract two numbers
+console.log(d * 3); // This will log 60 because * is used to multiply two numbers
+console.log(d / 3); // This will log 6.666666666666667 because / is used to divide two numbers
+console.log(d % 3); // This will log 2 because % is used to find the remainder of a division
+console.log(d ** 3); // This will log 8000 because ** is used to find the power of a number
 
 /*********************Important ***********************/
 
@@ -40,6 +40,6 @@ console.log(20 % 4); // This will log 0 because 20 divided by 4 is 5 with a rema
 console.log(10 % 2); // This will log 0 because 10 is an even number
 console.log(11 % 2); // This will log 1 because 11 is an odd number
 
-let num = 20;
+let num = 10;
 
-console.log(num % 2 === 0 ); // This will log true because 20 is an even number and the remainder when divided by 2 is 0
+console.log(num % 2 === 0 ); // This will log true because 10 is an even number and the remainder when divided by 2 is 0
