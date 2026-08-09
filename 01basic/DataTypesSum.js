@@ -14,6 +14,18 @@
 // 6. symbol :- it is a unique and immutable data type, often used as an identifier for object properties.
 // 7. bigint :- it is a data type that can represent integers larger than the maximum safe integer value for the number data type.
 
+
+
+
+/**** is javascript is dynamically typed language or statically typed language? ****/ 
+// javascript is a dynamically typed language, means we don't have to specify the data type of a variable when we declare it. The data type of
+// Example:
+//const score = 100; // we don't have to specify the data type of score variable, javascript will automatically assign the data type based on the value assigned to it. In this case, score is a number data type.
+//const name = "manjeet"; // we don't have to specify the data type of name variable, javascript will automatically assign the data type based on the value assigned to it. In this case, name is a string data type. 
+
+
+
+
 /*********** non-primitive data types (also known as references) ***********/
 
 // types of non-primitive data types in javascript are:
