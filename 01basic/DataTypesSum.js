@@ -15,7 +15,19 @@
 // 7. bigint :- it is a data type that can represent integers larger than the maximum safe integer value for the number data type.
 
 
+const score = 100; // we don't have to specify the data type of score variable, javascript will automatically assign the data type based on the value assigned to it. In this case, score is a number data type.
+const scoreValue = 100.3; // we don't have to specify the data type of scoreValue variable, javascript will automatically assign the data type based on the value assigned to it. In this case, scoreValue is a number data type.
 
+const isLoggedIn = false; // we don't have to specify the data type of isLoggedIn variable, javascript will automatically assign the data type based on the value assigned to it. In this case, isLoggedIn is a boolean data type.
+const outsideTemp = null; // we don't have to specify the data type of outsideTemp variable, javascript will automatically assign the data type based on the value assigned to it. In this case, outsideTemp is a null data type.
+let userEmail; // we don't have to specify the data type of userEmail variable, javascript will automatically assign the data type based on the value assigned to it. In this case, userEmail is an undefined data type.
+
+const id = Symbol("123"); // we don't have to specify the data type of id variable, javascript will automatically assign the data type based on the value assigned to it. In this case, id is a symbol data type.
+const anotherId = Symbol("123"); // the value of anotherId is different from id because symbol is a unique and immutable data type, even if they have the same description.
+
+console.log(id === anotherId); // This will log false because id and anotherId are two different symbols, even though they have the same description.
+
+const bigNumber = 123456789012345678901234567890n; // we bigint use for very large integers. n 
 
 /**** is javascript is dynamically typed language or statically typed language? ****/ 
 // javascript is a dynamically typed language, means we don't have to specify the data type of a variable when we declare it. The data type of
