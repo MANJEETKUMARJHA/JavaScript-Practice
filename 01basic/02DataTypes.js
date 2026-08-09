@@ -22,6 +22,7 @@ these are premitive data types in javascript
 // null => standalone value its means variable is declared and initialized with null value 
 // undefined => variable is declared but not initialized
 // symbol => to find unique
+// bigint => to store very large integers
 */
 
 // object => key-value pair
