@@ -61,3 +61,5 @@ const bigNumber = 123456789012345678901234567890n; // we bigint use for very lar
 // 11. error :- it is an object that represents an error that occurs during the execution of a program, it can be created using the Error constructor, it can be accessed and manipulated using various methods provided by the Error object.
 // 12. generator :- it is a special type of function that can be paused and resumed, it can be created using the function* syntax, it can be accessed and manipulated using various methods provided by the generator object.
 // 13. TypedArray :- it is an array-like object that provides a mechanism for reading and writing raw binary data in memory buffers, it can be created using various typed array constructors like Int8Array, Uint8Array, Float32Array etc., it can be accessed and manipulated using various methods provided by the typed array object.
+
+
