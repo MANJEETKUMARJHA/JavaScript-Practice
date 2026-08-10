@@ -63,3 +63,16 @@ const bigNumber = 123456789012345678901234567890n; // we bigint use for very lar
 // 13. TypedArray :- it is an array-like object that provides a mechanism for reading and writing raw binary data in memory buffers, it can be created using various typed array constructors like Int8Array, Uint8Array, Float32Array etc., it can be accessed and manipulated using various methods provided by the typed array object.
 
 
+/*********** Array ***********/
+
+// basic array operations in javascript are:
+
+// 1. creating an array :- we can create an array using array literal or constructor function.
+
+const fruits = ["apple", "banana", "orange"]; // array literal
+const numbers = new Array(1, 2, 3, 4, 5); // constructor function
+
+// 2. accessing array elements :- we can access array elements using index number starting from 0.
+
+console.log(fruits[0]); // This will log "apple" because it is the first element of the fruits array.
+console.log(numbers[2]); // This will log 3 because it is the third element of the numbers array.
