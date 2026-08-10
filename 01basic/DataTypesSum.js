@@ -76,3 +76,28 @@ const numbers = new Array(1, 2, 3, 4, 5); // constructor function
 
 console.log(fruits[0]); // This will log "apple" because it is the first element of the fruits array.
 console.log(numbers[2]); // This will log 3 because it is the third element of the numbers array.
+
+// basic object operations in javascript are:
+
+// 1. creating an object :- we can create an object using object literal or constructor function or class.
+
+const myObj = {
+    name: "manjeet",
+    age: 25,
+    isStudent: true,
+    hobbies: ["reading", "coding", "gaming"],
+}; // object literal 
+
+const anotherObj = new Object();
+anotherObj.name = "john";
+anotherObj.age = 30;
+anotherObj.isStudent = false;
+anotherObj.hobbies = ["traveling", "swimming", "cycling"]; // this is a constructor function 
+
+// 2. accessing object properties :- we can access object properties using dot notation or bracket notation.
+
+console.log(myObj.name); // This will log "manjeet" because it is the value of the name property of myObj object.
+console.log(anotherObj["age"]); // This will log 30 because it is the value of the age property of anotherObj object.
+console.log(myObj.hobbies[1]); // This will log "coding" because it is the second element of the hobbies array of myObj object. 
+console.log(anotherObj.name); // This will log "john" because it is the value of the name property of anotherObj object.
+
