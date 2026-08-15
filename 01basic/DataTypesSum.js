@@ -101,3 +101,11 @@ console.log(anotherObj["age"]); // This will log 30 because it is the value of t
 console.log(myObj.hobbies[1]); // This will log "coding" because it is the second element of the hobbies array of myObj object. 
 console.log(anotherObj.name); // This will log "john" because it is the value of the name property of anotherObj object.
 
+// 3. Function :- we can create a function using function declaration or function expression or arrow function.
+
+const myFunction = function() {
+    console.log("Hello World!"); // This will log "Hello World!" when the function is called.
+}
+
+console.log(myFunction); // This will log the function definition because we are not calling the function here. We are just logging the function reference.
+myFunction(); // This will call the function and log "Hello World!" to the console.
