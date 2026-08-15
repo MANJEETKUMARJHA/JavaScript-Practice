@@ -108,3 +108,6 @@ const myFunction = function() {
 }
 
 myFunction(); // This will call the myFunction and log "Hello World!" to the console.
+
+// all non-primitive data types are the function type in javascript. So, we can say that all non-primitive data types are objects in javascript. But, not all objects are non-primitive data types. For example, a function is an object in javascript but it is not a non-primitive data type.
+// the return of function is called object function or the datatype of function are object function.
