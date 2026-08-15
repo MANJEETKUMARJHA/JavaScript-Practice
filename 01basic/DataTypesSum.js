@@ -107,5 +107,4 @@ const myFunction = function() {
     console.log("Hello World!"); // This will log "Hello World!" when the function is called.
 }
 
-console.log(myFunction); // This will log the function definition because we are not calling the function here. We are just logging the function reference.
-myFunction(); // This will call the function and log "Hello World!" to the console.
+myFunction(); // This will call the myFunction and log "Hello World!" to the console.
