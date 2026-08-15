@@ -119,5 +119,30 @@ myFunction(); // This will call the myFunction and log "Hello World!" to the con
 // 1. Stack memory :- it is a fixed size memory location where primitive data types are stored. It is faster than heap memory because it is accessed directly by their value. It is used for storing primitive data types and function calls.
 // 2. Heap memory :- it is a dynamic size memory location where non-primitive data types are stored. It is slower than stack memory because it is accessed by reference. It is used for storing non-primitive data types like objects, arrays, functions etc.  
 
-// stack memory used in primirive type
-// heap memory is used non - primitive type 
+// stack memory used in primitive type 
+// heap memory used in non-primitive type
+
+//Example of stack memory
+let myName = "Manjeet"
+
+let anotherName = myName;
+anotherName = "Jha"
+
+console.log(anotherName);
+console.log(myName);
+
+// Example of heap
+
+    let userOne = {
+        email : "user@gmail.com",
+        upi : "user@ybl"
+    };
+
+
+    let userTwo = userOne
+
+    userTwo.email = "xyz@gmail.com"
+
+    console.log(userOne, userOne.email);
+    console.log(userTwo, userTwo.email);
+
