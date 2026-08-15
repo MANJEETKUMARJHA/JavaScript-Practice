@@ -125,11 +125,11 @@ myFunction(); // This will call the myFunction and log "Hello World!" to the con
 //Example of stack memory
 let myName = "Manjeet"
 
-let anotherName = myName;
+let anotherName = myName // This will create a new variable anotherName and assign it the value of myName variable.
 anotherName = "Jha"
 
-console.log(anotherName);
-console.log(myName);
+console.log(anotherName); // stack memory will store the value of anotherName variable as "Jha" because it is a primitive data type and it is passed by value. So, when we change the value of anotherName variable, it will not affect the value of myName variable.
+console.log(myName); // stack memory will store the value of myName variable as "Manjeet" because it is a primitive data type and it is passed by value.
 
 // Example of heap
 
@@ -139,10 +139,10 @@ console.log(myName);
     };
 
 
-    let userTwo = userOne
+    let userTwo = userOne // This will create a new variable userTwo and assign it the reference of userOne variable. So, both userOne and userTwo variables will point to the same object in heap memory.
 
     userTwo.email = "xyz@gmail.com"
 
-    console.log(userOne, userOne.email);
-    console.log(userTwo, userTwo.email);
+    console.log(userOne, userOne.email); // the value of userOne.email will be repleaced with two because both userOne and userTwo variables are pointing to the same object in heap memory. So, when we change the value of userTwo.email property, it will also change the value of userOne.email property.
+    console.log(userTwo, userTwo.email); // the value of userTwo.email will be "xyz@gmail.com"
 
