@@ -111,3 +111,13 @@ myFunction(); // This will call the myFunction and log "Hello World!" to the con
 
 // all non-primitive data types are the function type in javascript. So, we can say that all non-primitive data types are objects in javascript. But, not all objects are non-primitive data types. For example, a function is an object in javascript but it is not a non-primitive data type.
 // the return of function is called object function or the datatype of function are object function.
+
+
+
+/************************** Memory  ********************/
+// Two types of memory in javascript are:
+// 1. Stack memory :- it is a fixed size memory location where primitive data types are stored. It is faster than heap memory because it is accessed directly by their value. It is used for storing primitive data types and function calls.
+// 2. Heap memory :- it is a dynamic size memory location where non-primitive data types are stored. It is slower than stack memory because it is accessed by reference. It is used for storing non-primitive data types like objects, arrays, functions etc.  
+
+// stack memory used in primirive type
+// heap memory is used non - primitive type 
