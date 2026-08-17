@@ -147,3 +147,5 @@ console.log(myName); // stack memory will store the value of myName variable as 
     console.log(userTwo, userTwo.email); // the value of userTwo.email will be "xyz@gmail.com"
 
 // next is String 
+
+// where we learn about the string
