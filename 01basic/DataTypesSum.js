@@ -146,6 +146,4 @@ console.log(myName); // stack memory will store the value of myName variable as 
     console.log(userOne, userOne.email); // the value of userOne.email will be repleaced with two because both userOne and userTwo variables are pointing to the same object in heap memory. So, when we change the value of userTwo.email property, it will also change the value of userOne.email property.
     console.log(userTwo, userTwo.email); // the value of userTwo.email will be "xyz@gmail.com"
 
-// next is String 
-
-// where we learn about the string
+    
