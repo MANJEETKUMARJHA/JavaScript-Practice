@@ -20,3 +20,9 @@ console.log(gameName.__proto__);
 console.log(gameName.length); // 7 because manjeet has 7 characters
 console.log(gameName.toUpperCase()); // MANJEET because toUpperCase() method converts all the characters of a string to uppercase
 
+// String methods are used to manipulate and work with strings in JavaScript. Some common string methods include:
+// example: toUpperCase(), toLowerCase(), charAt(), indexOf(), slice(), substring(), replace(), split(), trim(), includes(), startsWith(), endsWith() etc.
+const myName = "Manjeet"
+console.log(myName.charAt(1)); // a because charAt() method returns the character at the specified index
+console.log(myName.charAt(0)); // M because charAt() method returns the character at the specified index
+console.log(myName.indexOf("M")); // 0 because indexOf() method returns the index of the first occurrence of the specified value
