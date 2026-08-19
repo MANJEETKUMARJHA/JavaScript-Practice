@@ -20,4 +20,3 @@ console.log(gameName.__proto__);
 console.log(gameName.length); // 7 because manjeet has 7 characters
 console.log(gameName.toUpperCase()); // MANJEET because toUpperCase() method converts all the characters of a string to uppercase
 
-// video 2: 05String.js end at 7:00 min
