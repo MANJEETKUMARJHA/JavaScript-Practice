@@ -3,7 +3,7 @@
 // PowerShell sees & as a special operator, not as part of the filename.
 // So PowerShell doesn't send the complete filename Num&Math.js to Node
 // Treat everything inside these quotes as one literal argument
-
+// use the following command to run the file in node.js                node "Num&Math.js"
 const num1 = 10
 const num2 = 20
 
