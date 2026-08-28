@@ -13,3 +13,8 @@ console.log(num1 * num2) // 200 because * operator is used to multiply two numbe
 console.log(num1 / num2) // 0.5 because / operator is used to divide two numbers
 console.log(num1 % num2) // 10 because % operator is used to get the remainder of two numbers
 console.log(num1 ** num2) // 10000000000000000000000000000000000000000000000000000000000000000000 because ** operator is used to get the power of a number
+
+// nothing is printed to the console because the following line is commented out
+// console.log(num1 + num2) // 30 because + operator is used to add two numbers
+
+// no commit today
