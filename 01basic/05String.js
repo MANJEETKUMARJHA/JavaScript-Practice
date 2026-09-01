@@ -72,7 +72,77 @@ const str4 = "123"
 console.log(str4.padStart(3, "0")); // 0123 because padStart() method pads the current string with another string (multiple times, if needed) until the resulting string reaches the given length
 // hare (x, "y") x is target length and y is padding character where y is added to the start of the string until the string reaches the target length
 
+
+
+
+
+
 // padEnd() is a JavaScript String method used to add characters at the end of a string until the string reaches a specified length.
 const str5 = "123"
 console.log(str5.padEnd(5, "0")); // 12300 because padEnd() method pads the current string with another string (multiple times, if needed) until the resulting string reaches the given length
 // hare (x, "y") x is target length and y is padding character where y is added to the end of the string until the string reaches the target length 
+
+
+
+
+
+// 7. String methods that slice a string: slice(), substring(), substr() etc.
+const str6 = "Hello World"
+console.log(str6.slice(0, 5)); // hare .slice(x, y) x is start index and y is end index 
+console.log(str6.slice(6)); // hare .slice(x) x is start index and it will slice the string from start index to the end of the string
+console.log(str6.slice(-3)); // hare .slice(x) x is negative index and it will slice the string from the end
+
+
+
+// the main difference substring() does not work with negative indexes the same way slice() does.
+console.log(str6.substring(0, 5)); // hare .substring(x, y) x is start index and y is end index
+console.log(str6.substring(6)); // hare .substring(x) x is start index and it will slice the string from start index to the end of the string
+console.log(str6.substring(-3)); // hare .substring(x) x is negative index and it not work it will return whole string because substring() does not work with negative indexes
+// it treats negative values as 0 and returns the whole string
+
+
+
+
+// substr() is similar to slice() and substring() but it takes the starting index and the length of the string to be extracted as parameters.
+console.log(str6.substr(5, 4)); // hare .substr(x, y) x is start index and y is length of the string 
+// in substr() y is the length of the string to be extracted, not the end index like in slice() and substring().
+// y is printed till the length of the string to match the length of the string to be extracted.
+// if the start index is greater than length of the string then it will start form the index and print the string till the end of the string. if the start index is negative then it will start from the end of the string and print the string till the end of the string.
+console.log(str6.substr(-3)); // hare .substr(x) x is negative index and it will slice the string from the end and print the string till the end of the string
+console.log(str6.substr(6)); // hare .substr(x) x is start index and it will slice the string from start index to the end of the string
+
+
+// 8. String methods that return a string: replace(), replaceAll(), repeat(), valueOf etc.
+const str7 = "Hello World"
+
+// replace() is used to replace a part of a string.
+console.log(str7.replace("World", "Manjeet")); 
+
+const str8 = "apple apple apple"
+console.log(str8.replace("apple", "banana")); 
+// .replace(searchValue, newValue) hare first occurrence of searchValue is replaced with newValue
+
+// allreplace() is used to replace all occurrences of a string.
+console.log(str8.replaceAll("apple", "banana")); 
+// .replaceAll(searchValue, newValue) hare all the searchValue is replaced with newValue 
+
+// repeat() is used to repeat a string multiple times.
+const str9 = "Hello "
+console.log(str9.repeat(3)); 
+// .repeat(x) hare x is the number of times the string is repeated
+
+console.log("hii ".repeat(3)); 
+// hare "hii " is repeated 3 times and it will print "hii hii hii "
+
+
+
+// 8. String methods that return a string: toString(), valueOf() etc.
+ // toString() is a JavaScript String method used to convert a value to a string.
+const num = 123
+console.log(num.toString()); // "123" because toString() method converts a number to a string
+
+// valueOf() is a JavaScript String method used to return the primitive value of a string.
+const str10 = new String("Hello World")
+console.log(str10.valueOf()); // "Hello World" because valueOf() method returns the primitive value of a string 
+
+
