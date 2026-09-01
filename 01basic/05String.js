@@ -3,8 +3,8 @@
 const name = "Manjeet"
 const repoCount = 50
 
-// console.log(name + " " + repoCount) // Concatenation and concatenation methods are : +
-// console.log(name , repoCount) // Concatenation and concatenation methods are : , this is not a good way to concatenate strings and numbers
+console.log(name + " " + repoCount) // This type of concatenation methods are not used in modern JavaScript: +
+// console.log(name , repoCount) // concatenation methods are : , this is not a good way to concatenate strings and numbers
 
 // Now day we use template literals to concatenate strings and numbers that mean ` ` whare we can use ${} to concatenate strings and numbers or crate a placeholder for variables in a string
 
