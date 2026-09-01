@@ -144,5 +144,5 @@ console.log(num.toString()); // "123" because toString() method converts a numbe
 // valueOf() is a JavaScript String method used to return the primitive value of a string.
 const str10 = new String("Hello World")
 console.log(str10.valueOf()); // "Hello World" because valueOf() method returns the primitive value of a string 
-
+// we wil see more about toString(), valueOf() etc. tomorrow in the next file 06StringMethods.js
 
