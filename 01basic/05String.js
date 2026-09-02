@@ -112,7 +112,7 @@ console.log(str6.substr(-3)); // hare .substr(x) x is negative index and it will
 console.log(str6.substr(6)); // hare .substr(x) x is start index and it will slice the string from start index to the end of the string
 
 
-// 8. String methods that return a string: replace(), replaceAll(), repeat(), valueOf etc.
+// 8. String methods that return a string: replace(), replaceAll(), repeat(), valueOf() etc.
 const str7 = "Hello World"
 
 // replace() is used to replace a part of a string.
@@ -134,15 +134,28 @@ console.log(str9.repeat(3));
 console.log("hii ".repeat(3)); 
 // hare "hii " is repeated 3 times and it will print "hii hii hii "
 
+// valueOf() is used to return the primitive value of a string.
+const num1 = new Number(123);
+console.log(num1);
+console.log(typeof num1); // object because num1 is a Number object
+console.log(num1.valueOf()); // 123 
+console.log(typeof num1.valueOf()); // number because it converts the Number object to a primitive number value 
+
+// eg 2 
+let str10 = new String("manjeet");
+console.log(typeof str10);
+console.log(str10.valueOf()); // manjeet
+console.log(typeof str10.valueOf()); // string because it converts the object to string
 
 
 // 8. String methods that return a string: toString(), valueOf() etc.
  // toString() is a JavaScript String method used to convert a value to a string.
-const num = 123
-console.log(num.toString()); // "123" because toString() method converts a number to a string
+// const num = 123
+// console.log(num.toString()); // "123" because toString() method converts a number to a string
 
 // valueOf() is a JavaScript String method used to return the primitive value of a string.
-const str10 = new String("Hello World")
-console.log(str10.valueOf()); // "Hello World" because valueOf() method returns the primitive value of a string 
-// we wil see more about toString(), valueOf() etc. tomorrow in the next file 06StringMethods.js
+// const str10 = new String("Hello World")
+// console.log(str10.valueOf()); // "Hello World" because valueOf() method returns the primitive value of a string 
+
+
 
