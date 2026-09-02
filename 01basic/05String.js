@@ -179,6 +179,9 @@ console.log(str11.valueOf()); // "Hello World" because valueOf() method returns 
 
 
 
+
+
+// 9. String methods that return a string: trim(), trimStart(), trimEnd() etc.
 //trim() removes whitespace from both ends of a string.
 const str12 = "   Hello World   "
 console.log(str12); 
@@ -186,3 +189,20 @@ console.log(str12.trim()); // it remove whitespace from both ends of the string
 console.log(str12.trimStart()); //it remove whitespace from start of the string only
 console.log(str12.trimEnd()); // it remove whitespace from end of the string only
 
+
+
+
+
+// 10. String methods that return a boolean: includes(), startsWith(), endsWith() etc.
+// includes() method is used to check if a string contains a specified value.
+console.log(url.includes("jha")); 
+console.log(url.startsWith("jha")); // it give false because url starts with "https" not "jha"
+console.log(url.endsWith("jha")); // it give true because url ends with "jha"
+
+
+
+
+// split() method is used to split a string into an array of substrings.
+const str13 = "Hello-World"
+console.log(str13.split("-")); 
+cons
