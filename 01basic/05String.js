@@ -205,4 +205,9 @@ console.log(url.endsWith("jha")); // it give true because url ends with "jha"
 // split() method is used to split a string into an array of substrings.
 const str13 = "Hello-World"
 console.log(str13.split("-")); 
-cons
+console.log(str13.split(" "));
+
+let str14 = "Java JavaScript Python C++";
+
+console.log(str14.split(" ", 3));
+// hare .split(x, y) x is the separator and y is the limit 
