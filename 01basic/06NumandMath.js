@@ -15,3 +15,4 @@ console.log(balance);
 
 console.log(typeof balance.toString()); // string
 console.log(balance.toString().length); // 3
+console.log(balance.toFixed(2));
