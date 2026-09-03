@@ -211,3 +211,28 @@ let str14 = "Java JavaScript Python C++";
 
 console.log(str14.split(" ", 3));
 // hare .split(x, y) x is the separator and y is the limit 
+
+// tostring() method is used to convert a value to a string.
+let num2 = 400;
+console.log(num2.toString()); // "400"
+console.log(typeof num2.toString()); // string
+// hare .toString() method converts a number to a string and returns the string value
+
+// valueOf() method is used to return the primitive value of a string.
+const num3 = "hello word";
+console.log(num3.valueOf()); // 400 because valueOf() method returns the primitive value
+console.log(num3.valueOf(1, 5)); // it ignore the parameters because valueOf() dose not any kind of parameter 
+
+
+
+// the main difference between let and const 
+// let is used to declare a variable that can be reassigned a new value
+// while const is used to declare a variable that cannot be reassigned a new value.
+// eg.
+let a = 10;
+a = 20; // it is valid because a is declared with let
+// console.log(a); // 20
+
+
+const b = 10;
+// b = 20; // it is invalid because b is declared with const and cannot be reassigned a new value
