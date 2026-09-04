@@ -34,8 +34,9 @@ console.log(hundred.toLocaleString()); // 1,000,000 this is the default formatti
 console.log(hundred.toLocaleString('en-IN')); // 10,00,000 for Indian locale formatting we use en-IN locale.
 
 // MAX_VALUE, MIN_VALUE, MAX_SAFE_INTEGER, MIN_SAFE_INTEGER, POSITIVE_INFINITY, NEGATIVE_INFINITY, NaN are the static properties of Number object.
-// 2.Number.MAX_VALUE
-// Number.MAX_VALUE 
+/*****          2.Number.MAX_VALUE          *****/ 
+// Number.MAX_VALUE And largest finite Number That JavaScript can represent using number type .
+// MAX_VALUE is not largest safe integer
 
-
-console.log(typeof 10); 
+console.log(Number.MAX_VALUE); // 1.7976931348623157e+308
+console.log(Number.MAX_VALUE * 2); //Infinity 
