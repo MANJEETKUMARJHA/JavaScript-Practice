@@ -22,4 +22,20 @@ const otherNumber = 23.456789;
 
 console.log(otherNumber.toPrecision(4)) 
 // .toPrecision(x) method is used for formatting no. for specific length. and x have some value between 1 to 21. 
+// It is a Number method used to format a number to a specified number of significant digits.
 
+const number1 = 1233.8966;
+console.log(number1.toPrecision(3)); // hare the result will be 124. because it will round the number to 3 significant digits.
+// precision is also round up the number 
+
+
+const hundred = 1000000;
+console.log(hundred.toLocaleString()); // 1,000,000 this is the default formatting for en-US locale
+console.log(hundred.toLocaleString('en-IN')); // 10,00,000 for Indian locale formatting we use en-IN locale.
+
+// MAX_VALUE, MIN_VALUE, MAX_SAFE_INTEGER, MIN_SAFE_INTEGER, POSITIVE_INFINITY, NEGATIVE_INFINITY, NaN are the static properties of Number object.
+// 2.Number.MAX_VALUE
+// Number.MAX_VALUE 
+
+
+console.log(typeof 10); 
