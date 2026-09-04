@@ -40,3 +40,12 @@ console.log(hundred.toLocaleString('en-IN')); // 10,00,000 for Indian locale for
 
 console.log(Number.MAX_VALUE); // 1.7976931348623157e+308
 console.log(Number.MAX_VALUE * 2); //Infinity 
+
+/**********         3.Number.MIN_VALUE       *********/
+/**********         4.Number.MAX_SAFE_INTEGER       **********/
+/**********         5.Number.MIN_SAFE_INTEGER       **********/
+/**********         6.Number.POSITIVE_INFINITY      **********/
+/**********         7.Number.NEGATIVE_INFINITY      **********/
+/**********         8.Number.NaN            **********/
+
+
