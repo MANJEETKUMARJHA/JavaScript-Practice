@@ -44,7 +44,8 @@ console.log(Number.MAX_VALUE * 2); //Infinity
 /**********         3.Number.MIN_VALUE       *********/
 // Number.MIN_VALUE is NOT the most negative number.
 // Number.MIN_VALUE > 0
-console.log(Number.MIN_VALUE);
+console.log(Number.MIN_VALUE); 
+console.log()
 
 
 /**********         4.Number.MAX_SAFE_INTEGER       **********/
