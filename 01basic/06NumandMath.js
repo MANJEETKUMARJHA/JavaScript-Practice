@@ -50,6 +50,7 @@ console.log()
 
 /**********         4.Number.MAX_SAFE_INTEGER       **********/
 //It is the largest integer that JavaScript can represent exactly and safely with Number
+console.log(Number.MAX_SAFE_INTEGER); //
 
 
 /**********         5.Number.MIN_SAFE_INTEGER       **********/
