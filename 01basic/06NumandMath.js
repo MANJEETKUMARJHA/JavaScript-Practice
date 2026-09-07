@@ -54,6 +54,8 @@ console.log(Number.MAX_SAFE_INTEGER); //
 
 
 /**********         5.Number.MIN_SAFE_INTEGER       **********/
+console.log(Number.MIN_SAFE_INTEGER);
+
 /**********         6.Number.POSITIVE_INFINITY      **********/
 /**********         7.Number.NEGATIVE_INFINITY      **********/
 /**********         8.Number.NaN            **********/
