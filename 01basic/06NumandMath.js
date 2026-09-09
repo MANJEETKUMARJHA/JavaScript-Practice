@@ -58,8 +58,14 @@ console.log(Number.MAX_SAFE_INTEGER); //
 console.log(Number.MIN_SAFE_INTEGER);
 
 /**********         6.Number.POSITIVE_INFINITY      **********/
+// this represent the positive infinty
 console.log(Number.POSITIVE_INFINITY);
+
+
 /**********         7.Number.NEGATIVE_INFINITY      **********/
+//this represent the negative infinity
+console.log(Number.NEGATIVE_INFINITY); // 
+
 /**********         8.Number.NaN            **********/
 
 // +++++++++++++++++  Math ++++++++++++++++++
