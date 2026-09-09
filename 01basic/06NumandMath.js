@@ -67,6 +67,7 @@ console.log(Number.POSITIVE_INFINITY);
 console.log(Number.NEGATIVE_INFINITY); // 
 
 /**********         8.Number.NaN            **********/
+// the nan is used for 
 
 // +++++++++++++++++  Math ++++++++++++++++++
 
