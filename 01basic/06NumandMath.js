@@ -59,8 +59,8 @@ console.log(Number.MIN_SAFE_INTEGER);
 
 /**********         6.Number.POSITIVE_INFINITY      **********/
 // this represent the positive infinty
-console.log(Number.POSITIVE_INFINITY);
-
+console.log(Number.POSITIVE_INFINITY); 
+// 
 
 /**********         7.Number.NEGATIVE_INFINITY      **********/
 //this represent the negative infinity
