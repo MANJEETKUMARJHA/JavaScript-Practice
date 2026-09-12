@@ -5,6 +5,7 @@ const now = new Date();
 console.log('Current date and time:', now);
 
 // Date components
+// th
 console.log('Year:', now.getFullYear());
 console.log('Month (0-11):', now.getMonth());
 console.log('Day of month:', now.getDate());
@@ -15,6 +16,7 @@ console.log('Seconds:', now.getSeconds());
 
 // Create a specific date
 const birthday = new Date('1999-12-25T08:30:00');
+console.log('')
 console.log('Birthday:', birthday.toString());
 
 // Format date values
