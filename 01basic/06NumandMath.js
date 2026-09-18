@@ -75,5 +75,13 @@ console.log(NaN);
 
 
 // +++++++++++++++++  Math ++++++++++++++++++
+console.log(Math)
+console.log(Math.abs(-4)); //Returns the absolute value of a number (the value without regard to whether it is positive or negative). For example, the absolute value of -5 is the same as the absolute value of 5.
+console.log(Math.round (4.6)); //Returns a supplied numeric expression rounded to the nearest integer.
+console.log(Math.ceil(4.1)); //Returns the smallest integer greater than or equal to its numeric argument.
+//Math.ceil eg. 4.2 or 4.1 in both case it return 5
+console.log(Math.floor(4.2)) // Returns the greatest integer less than or equal to its numeric argument.
+
+
 
 // in javascript maths 
