@@ -5,7 +5,7 @@
 // safe integer : range between -(2^53 - 1) and 2^53 - 1
 // parsing numbers : parseInt() and parseFloat()
 // formatting numbers : toString(), toExponential(), toFixed(), toPrecision()
-
+// in javascipt a (Number) is a primitive data type used to represent numeric values (both integers and decimals
 
 const score = 400;
 console.log(score);
@@ -75,7 +75,7 @@ console.log(NaN);
 
 
 // +++++++++++++++++  Math ++++++++++++++++++
-
+// in javascript Math is a built-in object that provides mathematical constants and methods
 
 console.log(Math)
 console.log(Math.abs(-4)); //Returns the absolute value of a number (the value without regard to whether it is positive or negative). For example, the absolute value of -5 is the same as the absolute value of 5.
@@ -90,5 +90,5 @@ console.log(Math.pow(2, 3)) // Returns the value of a base expression taken to a
 console.log(Math.max(2,3,6,9,8)); //Returns the larger of a set of supplied numeric expressions.
 console.log(Math.min(2, 4, 3 , 5, 7, 3, 9)); // Returns the smaller of a set of supplied numeric expressions.
 
-
+console.log(Math.random(6)); //Returns a pseudorandom number between 0 and 1.
 
