@@ -67,7 +67,12 @@ console.log(Number.POSITIVE_INFINITY);
 console.log(Number.NEGATIVE_INFINITY); // 
 
 /**********         8.Number.NaN            **********/
-// the nan is used for 
+// the NaN is used for 
+// Failed String Conversions: Trying to parse or convert a non-numeric string into a number.
+parseInt("Apple");
+console.log()
+console.log(NaN);
+
 
 // +++++++++++++++++  Math ++++++++++++++++++
 
