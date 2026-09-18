@@ -80,8 +80,11 @@ console.log(Math.abs(-4)); //Returns the absolute value of a number (the value w
 console.log(Math.round (4.6)); //Returns a supplied numeric expression rounded to the nearest integer.
 console.log(Math.ceil(4.1)); //Returns the smallest integer greater than or equal to its numeric argument.
 //Math.ceil eg. 4.2 or 4.1 in both case it return 5
-console.log(Math.floor(4.2)) // Returns the greatest integer less than or equal to its numeric argument.
-
+console.log(Math.floor(4.9)) // Returns the greatest integer less than or equal to its numeric argument.
+// Math.floor eg. 4.9 or 4.2 in both case it return 4
+console.log(Math.sqrt(8)); //Returns the square root of a number. eg 9 is 3
+console.log(Math.pow(2, 3)) // Returns the value of a base expression taken to a specified power
+// hare Math.pow(x, y) x is base and y is power eg. x is 2 and y is 3. so, we can write (2^3 = 8):
 
 
 // in javascript maths 
