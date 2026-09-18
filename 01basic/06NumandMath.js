@@ -75,6 +75,8 @@ console.log(NaN);
 
 
 // +++++++++++++++++  Math ++++++++++++++++++
+
+
 console.log(Math)
 console.log(Math.abs(-4)); //Returns the absolute value of a number (the value without regard to whether it is positive or negative). For example, the absolute value of -5 is the same as the absolute value of 5.
 console.log(Math.round (4.6)); //Returns a supplied numeric expression rounded to the nearest integer.
@@ -85,6 +87,8 @@ console.log(Math.floor(4.9)) // Returns the greatest integer less than or equal 
 console.log(Math.sqrt(8)); //Returns the square root of a number. eg 9 is 3
 console.log(Math.pow(2, 3)) // Returns the value of a base expression taken to a specified power
 // hare Math.pow(x, y) x is base and y is power eg. x is 2 and y is 3. so, we can write (2^3 = 8):
+console.log(Math.max(2,3,6,9,8)); //Returns the larger of a set of supplied numeric expressions.
+console.log(Math.min(2, 4, 3 , 5, 7, 3, 9)); // Returns the smaller of a set of supplied numeric expressions.
 
 
-// in javascript maths 
+
