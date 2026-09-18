@@ -90,5 +90,10 @@ console.log(Math.pow(2, 3)) // Returns the value of a base expression taken to a
 console.log(Math.max(2,3,6,9,8)); //Returns the larger of a set of supplied numeric expressions.
 console.log(Math.min(2, 4, 3 , 5, 7, 3, 9)); // Returns the smaller of a set of supplied numeric expressions.
 
-console.log(Math.random(6)); //Returns a pseudorandom number between 0 and 1.
 
+console.log(Math.random()); //Returns a pseudorandom number between 0 and 1.
+// Math.random() returns a pseudo-random floating-point number 
+// from 0 (inclusive) up to, but not including, 1 ([0, 1)).
+//  It is essential for making dynamic, unpredictable web behavior.
+console.log((Math.random()*10) + 1);
+console.log(Math.floor(Math.random()*10) + 1);
