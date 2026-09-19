@@ -56,4 +56,10 @@
 // it begining of january 1, 1970, UTC
 // nowdays we use temporal but it not fully function to some old browser so, we use older version
 
-let 
+let myDate = new Date();
+console.log(myDate.toString());
+console.log(myDate.toDateString()); //in .toDateString() it print only date and like Sat Sep 19 2026
+console.log(myDate.toJSON()); //Used by the JSON.stringify method to enable the transformation of an object's data for JavaScript Object Notation (JSON) serialization.
+// .toJSON(), it always returns a string in UTC format (Coordinated Universal Time) using the ISO 8601 standard (YYYY-MM-DDTHH:mm:ss.sssZ).
+
+// viedo run time 5 min
