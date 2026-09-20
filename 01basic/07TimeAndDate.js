@@ -2,7 +2,7 @@
 
 // // Current date and time
 // const now = new Date();
-// console.log('Current date and time:', now);
+//console.log('Current date and time:', now);
 
 // // Date components
 // // th
@@ -63,3 +63,12 @@ console.log(myDate.toJSON()); //Used by the JSON.stringify method to enable the 
 // .toJSON(), it always returns a string in UTC format (Coordinated Universal Time) using the ISO 8601 standard (YYYY-MM-DDTHH:mm:ss.sssZ).
 console.log(myDate.toLocaleTimeString('it-IT')); //Returns a time as a string value appropriate to the host environment's current locale.
 // The parentheses () are needed because they act as the "go button" or the execution trigger for a function in JavaScript.
+
+const now = new Date();
+console.log('Current date and time:', now);
+
+
+// for specific date and time 
+const birthday = new Date('1999-12-25T08:30:00');
+console.log('')
+console.log('Birthday:', birthday.toString());
