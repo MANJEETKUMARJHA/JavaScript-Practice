@@ -70,5 +70,6 @@ console.log('Current date and time:', now);
 
 // for specific date and time 
 const birthday = new Date('1999-12-25T08:30:00');
-console.log('')
+console.log('') // This simply prints an empty line to the console. it create visual spacing terminal
 console.log('Birthday:', birthday.toString());
+
