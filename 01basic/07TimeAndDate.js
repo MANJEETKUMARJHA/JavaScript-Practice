@@ -61,15 +61,17 @@ console.log(myDate.toString());
 console.log(myDate.toDateString()); //in .toDateString() it print only date and like Sat Sep 19 2026
 console.log(myDate.toJSON()); //Used by the JSON.stringify method to enable the transformation of an object's data for JavaScript Object Notation (JSON) serialization.
 // .toJSON(), it always returns a string in UTC format (Coordinated Universal Time) using the ISO 8601 standard (YYYY-MM-DDTHH:mm:ss.sssZ).
+console.log(myDate.toLocaleString()); // Returns a value as a string value appropriate to the host environment's current locale.
+console.log(myDate.toTimeString()) // Returns a time as a string value.
 console.log(myDate.toLocaleTimeString('it-IT')); //Returns a time as a string value appropriate to the host environment's current locale.
 // The parentheses () are needed because they act as the "go button" or the execution trigger for a function in JavaScript.
 
-const now = new Date();
-console.log('Current date and time:', now);
+// const now = new Date();
+// console.log('Current date and time:', now);
 
 
-// for specific date and time 
-const birthday = new Date('1999-12-25T08:30:00');
-console.log('') // This simply prints an empty line to the console. it create visual spacing terminal
-console.log('Birthday:', birthday.toString());
+// // for specific date and time 
+// const birthday = new Date('1999-12-25T08:30:00');
+// console.log('') // This simply prints an empty line to the console. it create visual spacing terminal
+// console.log('Birthday:', birthday.toString());
 
