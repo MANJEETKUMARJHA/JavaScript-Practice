@@ -89,10 +89,17 @@ let myCreateDate = new Date(2023, 0, 22);
 //  Parses the month as an array index. Months are 0-indexed]
 // (0 = Jan, 11 = Dec). This is a legacy feature inherited from Java.
 
-console.log(myCreateDate.toDateString());
+console.log(myCreateDate.toDateString()); //// Prints just the date portion in a readable format
 
 let myTimestamp = Date.now(); // Returns the current time in milliseconds since January 1, 1970 (Unix Epoch).
-console.log(myTimestamp);
-console.log(myCreateDate.getTime());
-console.log(Math.floor(Date.now()/1000));
+console.log(myTimestamp); //Prints the raw millisecond integer to the console (e.g., 1727104052300)
+console.log(myCreateDate.getTime()); // Extracts the millisecond value of your specific 'myCreateDate' (Jan 22, 2023).
+// we use .getTime() when you want to compare two dates using math.
+
+console.log(Date.now() / 1000); //Converts current milliseconds into seconds by dividing by 1000.
+console.log(Math.floor(Date.now()/1000)); // Math.floor() removes the decimals. This is widely used for database timestamps.
+
+
+// Converts the raw millisecond number back into a Date object, then prints 
+// it in a human-readable local date and time
 console.log(new Date(myTimestamp).toLocaleString()); 
