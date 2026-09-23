@@ -91,3 +91,8 @@ let myCreateDate = new Date(2023, 0, 22);
 
 console.log(myCreateDate.toDateString());
 
+let myTimestamp = Date.now(); // Returns the current time in milliseconds since January 1, 1970 (Unix Epoch).
+console.log(myTimestamp);
+console.log(myCreateDate.getTime());
+console.log(Math.floor(Date.now()/1000));
+console.log(new Date(myTimestamp).toLocaleString()); 
