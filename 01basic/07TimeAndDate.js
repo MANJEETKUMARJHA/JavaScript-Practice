@@ -73,9 +73,21 @@ console.log(typeof myDate); // it is object
 
 
 // for specific date and time 
-const birthday = new Date('1999-12-25T08:30:00'); //'1999-12-25T08:30:00' hare the 'T' is act like separator that devide the date from time 
+const birthday = new Date('1999-12-25T08:30:00');
+//String format (ISO 8601): new Date('1999-12-25T08:30:00') 
+// Parses as a calendar date. Months are 1-indexed (1 = Jan, 12 = Dec).
+// The 'T' is the standard separator between date and time. 
+
 console.log('') // This simply prints an empty line to the console. it create visual spacing terminal
 console.log('Birthday:', birthday.toString());
 console.log(birthday)
 
+console.log("");
+
+let myCreateDate = new Date(2023, 0, 22);
+ //Number arguments: new Date(2023, 0, 22)  
+//  Parses the month as an array index. Months are 0-indexed]
+// (0 = Jan, 11 = Dec). This is a legacy feature inherited from Java.
+
+console.log(myCreateDate.toDateString());
 
