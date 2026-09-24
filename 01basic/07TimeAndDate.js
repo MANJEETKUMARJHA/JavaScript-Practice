@@ -103,3 +103,17 @@ console.log(Math.floor(Date.now()/1000)); // Math.floor() removes the decimals. 
 // Converts the raw millisecond number back into a Date object, then prints 
 // it in a human-readable local date and time
 console.log(new Date(myTimestamp).toLocaleString()); 
+
+let newDate = new Date()
+console.log(newDate.getDate());
+console.log(newDate.getMonth() + 1 ) // we use +1 beacause in javascript in built month and weak start from 0 index
+
+// [string interpolation]  cks (``) allows you to inject variables using ${}
+console.log (`today date is ${newDate.toDateString()} and the time is ${newDate.toLocaleTimeString()}`);
+
+
+console.log(newDate.toLocaleString('default',{
+    weekday: "short",
+    timeZone: "Asia/Kolkata",
+    timeZoneName: "Asia/Delhi"
+}))
