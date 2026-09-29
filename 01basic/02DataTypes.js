@@ -13,6 +13,14 @@ let age = 22; // a number data type
 let isLoggedIn = false; // a boolean data type
 let state; // undefined data type, variable is declared but not initialized
 
+// A Symbol is a unique and immutable primitive data type introduced in
+const key1 = "key1"
+const MySym = Symbol(key1);
+console.log(MySym);
+
+console.log(""); 
+
+
 /*
 these are premitive data types in javascript
 // number => 2 to power 53
