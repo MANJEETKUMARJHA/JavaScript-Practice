@@ -18,15 +18,34 @@
 // Object.create //this is constructor method
 // in object we can declear both key and value 
 
+const mySym = Symbol("key1")
+
+
 const JsUser = {
     name: "Manjeet",
+    "Full name": "Manjeet jha",
+    [mySym]: "mykey1", // hare we can use square bracket because we refer to symbol
     age: 22,
-    location: "manjeet@gmail.com",
+    location: "kolkata",
+    email: "manjeet@gmail.com",
     isLoggedIn: false,
     lastLoginDays: ["Monday", "Sunday"]
 }
+// every key must assinged value
 
-console.log(JsUser.lastLoginDays);
+console.log(JsUser.lastLoginDays); // this called .dot notation
+console.log(JsUser.location);
+console.log(JsUser.email); // this type of of syntex is not used in string key
+console.log(JsUser["email"]); // this type of syntex is used boths case string key or normal key
+console.log(JsUser["Full name"]); // this type of syntex is used in string data type and it called bracket notaion
+console.log(JsUser[mySym]);
+
+// to change the value 
+JsUser.email = "manjeet45@gmail.com"
+// to freeze object
+JsUser.email = "manjeet45@gmail.com"
+console.log(JsUser);
+
 
 
 
