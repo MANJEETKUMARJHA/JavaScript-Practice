@@ -40,11 +40,29 @@ console.log(JsUser["email"]); // this type of syntex is used boths case string k
 console.log(JsUser["Full name"]); // this type of syntex is used in string data type and it called bracket notaion
 console.log(JsUser[mySym]);
 
-// to change the value 
+// to change the value for changing the value we use assignment operator
 JsUser.email = "manjeet45@gmail.com"
 // to freeze object
+// Object.freeze() it Prevents the modification of existing property attributes and values, and prevents the addition of new properties.
+// but sub object still modification 
+//Object.freeze(JsUser); 
 JsUser.email = "manjeet45@gmail.com"
 console.log(JsUser);
+
+// adding the function 
+//
+JsUser.greeting = function() {
+    console.log("Hello JS user");
+}
+
+JsUser.greetingTwo = function() {
+    console.log(`Hello JS user, ${this["Full name"]} `);
+}
+// (` , $(this.)`) we can use (this) to inside an object method to refer to the object itself.
+
+console.log(JsUser.greeting); // undefined
+console.log(JsUser.greeting()); // Hello JS user
+console.log(JsUser.greetingTwo());
 
 
 
