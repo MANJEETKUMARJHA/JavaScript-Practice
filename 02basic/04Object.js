@@ -86,3 +86,7 @@ console.log(appUser.hasOwnProperty("name"));
 
 // Object.getOwnPropertyNames() method is used to get the names of the properties of the object in an array
 console.log(Object.getOwnPropertyNames(appUser));
+
+// Object.propertyIsEnumerable() method is used to check if the property is enumerable or not
+console.log(appUser.propertyIsEnumerable("name"));
+
