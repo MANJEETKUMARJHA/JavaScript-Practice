@@ -90,3 +90,38 @@ console.log(Object.getOwnPropertyNames(appUser));
 // Object.propertyIsEnumerable() method is used to check if the property is enumerable or not
 console.log(appUser.propertyIsEnumerable("name"));
 
+// object.freeze() method is used to freeze the object, it will prevent the object from being modified
+console.log(Object.freeze(appUser));
+
+// DESTRUCTURING OBJECT
+// Destructuring is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
+
+const course = {
+    coursename: "Js from scratch",
+    price: 999,
+    courseInstructor: "Manjeet Jha",
+}
+
+const {courseInstructor: instructor} = course // this is the syntex of destructuring object
+console.log(instructor);
+// it will use in react when we want to pass the props from parent component to child component
+
+
+
+// ------------------------------
+// ======== JASON OBJECT ========
+// ------------------------------
+// Api destructuring object
+
+// {
+//     "name": "Manjeet Jha",
+//     "email": "majeet@ggc.com",
+//     "price": "free",
+// }
+// api in arrays
+// [
+//     {},
+//     {}
+//     {}
+// ]
+
