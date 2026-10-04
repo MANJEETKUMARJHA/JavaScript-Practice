@@ -7,6 +7,7 @@
 // Function Declaration
 function SaymyName(){
     console.log("M");
+    console.log("A");
     console.log("N");
     console.log("J");
     console.log("E");
@@ -67,10 +68,33 @@ console.log("Result: ",result2); // 9
 // ========================================================
 
 function loginUser (username) {
+    if (username === undefined) {
+        console.log("Please Enter a username");
+        // sometime we use (!username) = (username === undefined)
+        // if we pass the return then, if condition false then if will print undefined else the conditon is true then it will print value
+        return
+    }
     return `${username} just logged in`
 }
 
 // 
 console.log(loginUser("Maneet")); // Maneet just logged in
+console.log(loginUser()); 
 
+
+// for avoiding undifined we can set some deffult value we can set some ualue in parameter
+function loginUser1 (username = "abc") {
+    // in this condition we don't need the if else condition
+    if (username === undefined) {
+        console.log("Please Enter a username");
+        // sometime we use (!username) = (username === undefined)
+        // if we pass the return then, if condition false then if will print undefined else the conditon is true then it will print value
+        return
+    }
+    return `${username} just logged in`
+}
+
+// 
+console.log(loginUser1("Maneet")); // Maneet just logged in
+console.log(loginUser1()); 
 
