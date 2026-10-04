@@ -18,5 +18,10 @@ SaymyName();
 function AddTwoNum (num1, num2){
     console.log(num1 + num2);
 }
+// CALLING THE FUNCTION: This is where we provide the actual data (arguments).
+// If we declared the values inside the function first, it could only ever perform that one specific value that we declared.
+AddTwoNum(2, 3); // we declared the values inside the function
+AddTwoNum(2, "3"); // output: 23 because we adding number and string together.
 
-AddTwoNum(2, 3);
+// when we take any input inside a function, thats called parameter.
+// And when we pass any value to the function, thats called argument.
