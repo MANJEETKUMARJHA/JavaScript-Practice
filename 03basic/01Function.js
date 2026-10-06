@@ -20,7 +20,7 @@ SaymyName();
 
 
 
-// -------- Adding two number using function ----------
+// -------- Adding two number using function    ----------
 // ====================================================
 
 function AddTwoNum (num1, num2){
@@ -98,3 +98,9 @@ function loginUser1 (username = "abc") {
 console.log(loginUser1("Maneet")); // Maneet just logged in
 console.log(loginUser1()); 
 
+
+// Function with infinite argument
+
+function calculateCartPrice(num1) {
+    return num1
+}
