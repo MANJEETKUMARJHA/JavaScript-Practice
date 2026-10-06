@@ -77,7 +77,6 @@ function loginUser (username) {
     return `${username} just logged in`
 }
 
-// 
 console.log(loginUser("Maneet")); // Maneet just logged in
 console.log(loginUser()); 
 
@@ -94,7 +93,6 @@ function loginUser1 (username = "abc") {
     return `${username} just logged in`
 }
 
-// 
 console.log(loginUser1("Maneet")); // Maneet just logged in
 console.log(loginUser1()); 
 
