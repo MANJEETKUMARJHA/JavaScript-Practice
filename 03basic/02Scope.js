@@ -11,9 +11,14 @@ var c = 30
 
 console.log("Global Scope", a, b, c);
 
+// Block scope 
 // Scope start form means {} barackte
+if (true) {
+    let blockLet = 100;
+    const blockConst = 200;
+    var blockVar = 300;
+}
 
-
-console.log(a);
-console.log(b);
-console.log(c);
+// console.log("Inside Block:", blockLet);   // not defined
+// console.log("Inside Block:", blockConst); // not defined
+console.log("Inside Block:", blockVar);   // 300 Because var ignores block scope completely
