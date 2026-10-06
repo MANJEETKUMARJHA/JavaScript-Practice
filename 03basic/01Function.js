@@ -100,7 +100,52 @@ console.log(loginUser1());
 
 
 // Function with infinite argument
-
-function calculateCartPrice(num1) {
+// hare we can use rest operator (...) this is the rest opreator not spreed operator
+// we use the rest operator for mutiple values and it print in array
+function calculateCartPrice(...num1) {
     return num1
 }
+
+console.log(calculateCartPrice(20, 40, 50));
+
+// Object in function
+// hare we must check type of No Type Checking If we pass a string, null, or an empty object, the original function will either print "undefined" or throw a fatal error.
+// Defining an object in a variable 
+const user = {
+    username: "manjeet",
+    price: 199
+}
+
+function handleObject(anyobject) {
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+    
+}
+
+handleObject(user);
+
+// Method B: Passing an "inline" or "anonymous" object directly
+// in this type of syntex we dont create any type of object we directly pass them 
+function handleObject(anyobject) {
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+    
+}
+
+handleObject({
+    username: "jha",
+    price: 166
+})
+
+// Array in function
+// This function accepts an argument 'anyArray'. It assumes that whatever is passed will be a valid array and have at least two elements at index 0 and index 1.
+const newArray = [20, 40, 10, 600]
+
+function returnSecondValue(getArray) {
+    return getArray [1]
+}
+
+//// Method A: Passing an array by variable reference
+console.log(returnSecondValue(newArray));
+
+// methord b Passing an "inline" or "anonymous" array directly
+console.log(returnSecondValue([20, 10, 30, 60]));
+
