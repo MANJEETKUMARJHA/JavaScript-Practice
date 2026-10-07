@@ -62,18 +62,20 @@ if (true) {
 // console.log(username); // we can't access the local variable from the global level
 
 
-// +++++++ Some more Concept ++++++++
+// +++++++ Some more Concept or Staring of Hoisting ++++++++
 // =================================
-// function
+
+console.log(addone(3)); // hare we can access 'addowo' before initialization
+
 function addone (num) {
     return num + 1;
 }
 
-console.log(addone(3));
+// this is the function with expression
+// console.log(addTwo(5)); // Cannot access 'addTwo' before initialization
 
-// this is the expression 
 const addTwo = function(num) {
     return num + 2
 }
 
-addTwo(5)
+addTwo(5) 
