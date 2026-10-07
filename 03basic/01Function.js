@@ -19,6 +19,14 @@ function SaymyName(){
 SaymyName();
 
 
+// Print it directly to the console
+function addone (num) {
+    return num + 1;
+}
+
+console.log(addone(3));
+
+
 
 // -------- Adding two number using function    ----------
 // ====================================================

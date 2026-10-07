@@ -34,6 +34,7 @@ console.log("Inside Block:", blockVar);   // 300 Because var ignores block scope
 // in nested function inner function acces outer variable
 // in nested function child can access parent variable
 
+// nested function
 function one () {
     const username = "manjeet";
 
@@ -48,3 +49,31 @@ function one () {
 
 one()
 
+// nested if else
+if (true) {
+    const username = "jha"
+    if (username === "jha") {
+        const website = " youtube"
+        console.log(username + website);
+    }
+    // console.log(website); // it will not execute because we can't acess outerside of block
+}
+
+// console.log(username); // we can't access the local variable from the global level
+
+
+// +++++++ Some more Concept ++++++++
+// =================================
+// function
+function addone (num) {
+    return num + 1;
+}
+
+console.log(addone(3));
+
+// this is the expression 
+const addTwo = function(num) {
+    return num + 2
+}
+
+addTwo(5)
