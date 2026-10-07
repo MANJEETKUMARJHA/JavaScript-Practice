@@ -3,7 +3,9 @@
 // A "Block" in JavaScript is anything inside curly braces { } (like if-statements or loops).
 
 
-// 1. GLOBAL SCOPE
+// ++++++ GLOBAL SCOPE +++++
+// =========================
+
 // Definition: Variables declared outside of any block {} or function.
 // Visibility: Accessible from ANYWHERE in your entire JavaScript file (even inside blocks or functions).
 // Variables declared outside of any block or function can be accessed anywhere.
@@ -15,7 +17,9 @@ var c = 30 // Scope	Global or Function, it Can be Reassigned, it will redeclared
 
 console.log("Global Scope", a, b, c);
 
-// Block scope 
+// ++++ Block scope +++++
+// ======================
+
 // Scope start form means {} barackte
 // Definition: Variables declared inside curly braces {} using 'let' or 'const'.
 // Visibility: Accessible ONLY inside those specific curly braces.
@@ -31,7 +35,9 @@ console.log("Inside Block:", blockVar);   // 300 Because var ignores block scope
 
 
 
-// Nested Scope (Lexical scope)
+// +++++ Nested Scope (Lexical scope) +++++
+// ========================================
+
 // in nested function inner function acces outer variable
 // in nested function child can access parent variable
 // Lexical Scope means a child can access its parent's variables, but a parent CANNOT access its child's variables.
@@ -66,7 +72,7 @@ if (true) {
 
 
 // +++++++ Some more Concept or Staring of Hoisting ++++++++
-// =================================
+// =========================================================
 
 // Standard function declaration
 console.log(addone(3)); // hare we can access 'addowo' before initialization
