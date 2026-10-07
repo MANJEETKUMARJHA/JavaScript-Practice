@@ -29,4 +29,4 @@ if (true) {
 console.log("Inside Block:", blockVar);   // 300 Because var ignores block scope completely
 
 // Scope level or nested Scope
-//  
+// The Nested work like if else condition
