@@ -28,4 +28,23 @@ if (true) {
 // console.log("Inside Block:", blockConst); // not defined
 console.log("Inside Block:", blockVar);   // 300 Because var ignores block scope completely
 
+
+
 // Scope level or nested Scope
+// in nested function inner function acces outer variable
+// in nested function child can access parent variable
+
+function one () {
+    const username = "manjeet";
+
+    function two () {
+        const website = "Youtube"
+        console.log(username);
+        
+    }
+    // console.log(website); // not execute because it access block scope but in outer of the function
+    two()
+}
+
+one()
+
