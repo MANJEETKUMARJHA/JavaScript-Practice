@@ -7,9 +7,10 @@
 // Definition: Variables declared outside of any block {} or function.
 // Visibility: Accessible from ANYWHERE in your entire JavaScript file (even inside blocks or functions).
 // Variables declared outside of any block or function can be accessed anywhere.
-let a = 10
-const b = 20
-var c = 30
+
+let a = 10 // Scope Block, it Can be Reassigned, can't Redeclared
+const b = 20 // Scope Block, it Cannot be Reassigned, can't Redeclared, it can reassinged but inside in object or function
+var c = 30 // Scope	Global or Function, it Can be Reassigned, it will redeclared
 
 console.log("Global Scope", a, b, c);
 
@@ -26,3 +27,6 @@ if (true) {
 // console.log("Inside Block:", blockLet);   // not defined
 // console.log("Inside Block:", blockConst); // not defined
 console.log("Inside Block:", blockVar);   // 300 Because var ignores block scope completely
+
+// Scope level or nested Scope
+//  
