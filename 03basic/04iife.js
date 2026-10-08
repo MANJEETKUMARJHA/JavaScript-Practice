@@ -1,6 +1,6 @@
 // Immediately Invoked Function Expression (IIFE)
 // iife : A function that is executed right after it is created.
 
-// WHY DO WE USE IT?
-// 1. To avoid polluting the global scope. Global variables can cause bugs and naming conflicts. An IIFE creates a private scope.
+// WE USE IT for avoiding polluting the global scope. it will creates a private scope. So,Global variables can cause bugs and naming are not conflicts
 // 2. To execute setup code or establish a database connection immediately without needing to call the function manually later.
+
