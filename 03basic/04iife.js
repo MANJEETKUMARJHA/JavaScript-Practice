@@ -16,4 +16,17 @@
 }
 ) ("jha");
 
+// let valu1 = 10
+// let valu2 = 5
+// function addNum (num1 , num2) {
+//     let result = num1 + num2
+//     return result
+// }
+
+// let result1 = addNum(valu1, valu2)
+// let result2 = addNum(10 , 2)
+// console.log(result1);
+// console.log(result2);
+
+// today we learn about call stack and javascript execution context
 
