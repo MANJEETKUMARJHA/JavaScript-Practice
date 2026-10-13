@@ -47,4 +47,38 @@ const balance1 = 1000
 if (balance1 > 500) console.log("Success"), console.log("test");
 
 
+// Nested Condition
 
+if (balance < 500) {
+    console.log("less then");
+
+} else if (balance < 750) {
+    console.log("less then 750");
+
+} else if( balance < 900) {
+    console.log("less than 900");
+    
+} else {
+    console.log("less than 1200");
+}
+
+// real world example
+
+const userLoggedIn = true
+const debitCard = true
+const loggedInFromGoogle = false
+const loggedInFromEmail = true
+
+// hare we use && operator the condition of ampersent is both condition should be true
+if (userLoggedIn && debitCard) {
+    console.log("Allowed");
+
+}
+
+// in this condion we use || (or), at least one condition will satisfy.
+if (loggedInFromEmail || loggedInFromGoogle) {
+    console.log("user logged in")
+}
+
+
+// last time is 24 min
