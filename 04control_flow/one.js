@@ -7,7 +7,11 @@
 // By default, code runs top-to-bottom. We use control flow to make decisions (skip code, repeat code, or branch off).
 
 // 1.if statement 
-// condition must be true to execute the scope if condition will flase the scope in not execute
-if (condition) {
+// condition must be true to execute the scope if condition will flase then scope will not execute
+
+const isUserLoggedIn = true
+
+if (isUserLoggedIn) {
     
 }
+
