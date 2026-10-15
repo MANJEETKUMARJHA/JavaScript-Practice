@@ -18,7 +18,7 @@ if (Temp < 50) {
 console.log("Temp greater then 50"); // this will execute because it out of local scope
 
 // Basic operator revision: <, >, =>, =<, ==, != not equal, === stricked equal typeChecked, !== Strict inequality: different value or type
-
+// originally wrote `=>` and `=<`. In JavaScript, `>=` (greater than or equal) and `<=` (less than or equal) are the correct operators. The `=>` symbol is reserved for arrow functions!
 
 // If.. else Statement
 const Temp1 = 41
@@ -36,18 +36,23 @@ if (score > 100) {
 } else {
     
 }
+// If you uncomment the line below, you will get a ReferenceError. 
+// Why? Because variables declared with `let` and `const` are "block-scoped". 
+// They only exist inside the curly braces {} where they were created. They cannot be accessed outside.
 // console.log(`User power: ${power}`);
 
 
-// Short hand notation and impecit scope
+// Short hand notation and Implicit scope
 const balance = 1000
+// Good for single line execution
 if (balance > 500) console.log("Success");
-// for multiple output or multiple line we seprate with comma and last must added semicolama and this is not good pratice
+
+// For multiple outputs on one line, you can separate with commas, BUT as you correctly noted, this is bad practice!
 const balance1 = 1000
 if (balance1 > 500) console.log("Success"), console.log("test");
 
 
-// Nested Condition
+// Nested Condition (if...else if...else)
 
 if (balance < 500) {
     console.log("less then");
@@ -69,14 +74,22 @@ const debitCard = true
 const loggedInFromGoogle = false
 const loggedInFromEmail = true
 
-// hare we use && operator the condition of ampersent is both condition should be true
+// &&(And) operator the condition of ampersent is both condition should be true
 if (userLoggedIn && debitCard) {
     console.log("Allowed");
 
 }
 
-// in this condion we use || (or), at least one condition will satisfy.
+// || (or), at least one condition will satisfy. At least ONE condition must satisfy (be true) to execute the block.
 if (loggedInFromEmail || loggedInFromGoogle) {
     console.log("user logged in")
 }
 
+The ! (NOT) Operator
+// The NOT operator reverses the boolean value. If a value is true, ! makes it false. If it is false, ! makes it true.
+const isBanned = false;
+
+// This reads as "If the user is NOT banned"
+if (!isBanned) { 
+    console.log("Welcome to the website!");
+}
