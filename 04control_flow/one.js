@@ -85,7 +85,7 @@ if (loggedInFromEmail || loggedInFromGoogle) {
     console.log("user logged in")
 }
 
-The ! (NOT) Operator
+// The ! (NOT) Operator
 // The NOT operator reverses the boolean value. If a value is true, ! makes it false. If it is false, ! makes it true.
 const isBanned = false;
 
