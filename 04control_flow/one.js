@@ -80,5 +80,3 @@ if (loggedInFromEmail || loggedInFromGoogle) {
     console.log("user logged in")
 }
 
-
-// last time is 24 min
