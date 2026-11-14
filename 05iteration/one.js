@@ -1,7 +1,10 @@
 // For Loop
-
-// index++ :- means 
-
+// Syntax: for (initialization; condition; update) { body }
+// Execution Order:
+//   Step 1: Initialization runs ONCE at the start (let i = 0)
+//   Step 2: Condition is checked BEFORE each cycle (i < 10)
+//   Step 3: Loop body executes if condition is true
+//   Step 4: Update runs AFTER loop body (i++), then repeats Step 2
 
 for (let i = 0; i < 10; i++) {
     const element = i;
@@ -41,4 +44,24 @@ for (let index = 0; index < myArray.length; index++) {
 }
 
 
-// important 
+// important keyword
+// break and continue
+
+for (let index = 1; index <= 20; index++) {
+    if (index == 5) {
+        console.log(`detected 5`);
+        break  // using break keyword we can break the control flow 
+    }
+    console.log(`value of i is ${index}`);
+    
+}
+
+
+for (let index = 1; index <= 20; index++) {
+    if (index == 5) {
+        console.log(`detected 5`);
+        continue //  they just stop the for one time 
+    }
+    console.log(`value of i is ${index}`);
+    
+}
