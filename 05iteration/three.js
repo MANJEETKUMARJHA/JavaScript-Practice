@@ -45,3 +45,45 @@ for (const greet of greeting) {
 }
 
 console.log(output); // Output: hello World!
+
+
+// ---- 4. Map ----
+// Maps : it is object and hold key value pair 
+// it also help in remamber the original insertiion order of the key value.
+// no duplicate value and ervey is unique (duplicate keys overwrite old values, though values can repeat).
+
+const map = new Map()
+map.set('IN', "India")
+map.set('US', "Uited state of America")
+map.set('FR', "France")
+
+console.log(map)
+
+// Each iteration returns a [key, value] array pair
+for (const entry of map) {
+    console.log(entry); // e.g., [ 'IN', 'India' ]
+}
+
+for (const key of map) {
+    console.log(key);
+    
+}
+
+// destracturing of array using [key, value] unpacks each pair into separate variables
+// throug using [] we can seprate the 
+for (const [key, value] of map) {
+    console.log(key,':-', value );
+    
+}
+
+
+// this is not iterable or object is not iterable
+// const myObj = {
+//     'game1' : 'NFS',
+//     'game2' : 'Spiderman'
+// }
+
+// for (const [key, value] of myObj) {
+//     console.log(key, ':=', value);
+    
+// }
